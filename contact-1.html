@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Programs | SELA</title>
+<title>Contact | SELA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
@@ -1471,24 +1471,17 @@ footer {
 }
 
 body { background:#fff; }
-.programs { background:#ffffff !important; }
-.programs .s-tag, .s-tag { color:var(--grape) !important; }
-.programs h2 { color:var(--plum) !important; }
-.programs .s-lead { color:rgba(61,26,110,0.6) !important; opacity:1 !important; }
-.prog-row { border-bottom:1px solid rgba(61,26,110,0.08) !important; }
-.prog-row:first-child { border-top:1px solid rgba(61,26,110,0.08) !important; }
-.prog-row:hover { background:rgba(124,58,237,0.04) !important; }
-.prog-name { color:var(--plum) !important; }
-.prog-desc { color:rgba(61,26,110,0.52) !important; }
-.prog-dur { color:rgba(61,26,110,0.38) !important; }
-.prog-price { color:var(--iris) !important; }
-.p-tab { border:1px solid rgba(61,26,110,0.18) !important; color:rgba(61,26,110,0.45) !important; background:#fff !important; }
-.p-tab.active,.p-tab:hover { background:rgba(124,58,237,0.08) !important; border-color:rgba(124,58,237,0.4) !important; color:var(--grape) !important; }
-.prog-cta { color:var(--iris) !important; border-color:rgba(124,58,237,0.3) !important; }
-.prog-cta:hover { background:rgba(124,58,237,0.08) !important; }
-.b-cert { background:rgba(124,58,237,0.1) !important; color:var(--grape) !important; }
-.b-exec { background:rgba(168,85,247,0.1) !important; color:var(--grape) !important; }
-.b-online { background:rgba(61,26,110,0.07) !important; color:var(--grape) !important; }
+.contact { background:#ffffff !important; }
+.contact-glow { display:none; }
+.contact .s-tag { color:var(--grape) !important; }
+.contact h2 { color:var(--plum) !important; }
+.contact-sub { color:rgba(61,26,110,0.6) !important; }
+.ci-group-label { color:rgba(61,26,110,0.38) !important; border-bottom-color:rgba(61,26,110,0.1) !important; }
+.ci-label { color:var(--grape) !important; }
+.ci-val { color:rgba(61,26,110,0.55) !important; }
+.ci-icon { color:var(--iris) !important; }
+.btn-ghost { border-color:rgba(61,26,110,0.2) !important; color:var(--grape) !important; }
+.btn-ghost:hover { border-color:var(--iris) !important; color:var(--iris) !important; }
 
 
 /* ═══ UNIVERSAL WHITE BACKGROUND — ALL PAGES ═══ */
@@ -1655,145 +1648,70 @@ h2 { color: var(--plum) !important; }
     </a>
     <ul class="nav-links">
       <li><a href="about.html">About</a></li>
-      <li><a href="programs.html" class="active">Programs</a></li>
+      <li><a href="programs.html">Programs</a></li>
       <li><a href="consulting.html">Consulting</a></li>
       <li><a href="research.html">Research</a></li>
       <li><a href="alumni.html">Alumni</a></li>
       <li><a href="admissions.html">Admissions</a></li>
-      <li><a href="contact.html" class="nav-apply">Apply Now</a></li>
+      <li><a href="contact.html" class="nav-apply active">Apply Now</a></li>
     </ul>
     <button class="nav-hamburger" id="hamburger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
   </nav>
 </div>
 
-<!-- ── PROGRAMS ── -->
-<section class="programs" id="programs">
-  <div class="s-inner">
-    <div class="prog-header-row">
+<!-- ── CONTACT ── -->
+<section class="contact" id="contact">
+  <div class="contact-glow"></div>
+  <div class="s-inner" style="position:relative; z-index:1;">
+    <div class="contact-layout">
       <div>
-        <div class="s-tag" style="color:var(--lavender);">Certification Programs</div>
-        <h2>40+ Credentials Across Every Sustainability Domain</h2>
-      </div>
-      <div class="prog-tabs">
-        <button class="p-tab active" onclick="filterProgs('all',this)">All Programs</button>
-        <button class="p-tab" onclick="filterProgs('cert',this)">Certifications</button>
-        <button class="p-tab" onclick="filterProgs('exec',this)">Executive</button>
-        <button class="p-tab" onclick="filterProgs('online',this)">Online / Micro</button>
-      </div>
-    </div>
-
-    <div class="prog-list">
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Certified Sustainability Professional (CSP)</div>
-          <div class="prog-desc">The flagship certification for environmental and sustainability managers. Strategy, reporting, stakeholder engagement, and systemic change leadership.</div>
+        <div class="s-tag">Get Started</div>
+        <h2>Ready to Lead the Sustainability Revolution?</h2>
+        <p class="contact-sub">Whether you're an individual professional seeking certification or an organisation looking for consulting support, SELA is your partner in building a sustainable future.</p>
+        <div class="contact-btns">
+          <a href="mailto:info@selalimited.com" class="btn-primary">Apply Now</a>
+          <a href="mailto:consult@selalimited.com" class="btn-ghost">Request Consultation</a>
         </div>
-        <div class="prog-dur">6 months</div>
-        <div class="prog-price">$3,500</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
       </div>
 
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Certified Environmental Manager (CEM)</div>
-          <div class="prog-desc">Comprehensive training in environmental compliance, risk management, and operational excellence. Navigate regulations and lead environmental auditing programs.</div>
+      <div class="contact-info">
+        <div class="ci-group-label">Reach Us</div>
+        <div class="ci-item">
+          <span class="ci-icon"><i class="fa-solid fa-envelope"></i></span>
+          <div>
+            <div class="ci-label">General Enquiries</div>
+            <div class="ci-val">info@selalimited.com</div>
+          </div>
         </div>
-        <div class="prog-dur">5 months</div>
-        <div class="prog-price">$3,200</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Climate Change & Carbon Management Specialist</div>
-          <div class="prog-desc">Advanced certification in climate science, carbon accounting (Scopes 1–3), and net zero strategy. Navigate carbon markets and TCFD climate disclosure.</div>
+        <div class="ci-item">
+          <span class="ci-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+          <div>
+            <div class="ci-label">Admissions</div>
+            <div class="ci-val">admissions@selalimited.com</div>
+          </div>
         </div>
-        <div class="prog-dur">4 months</div>
-        <div class="prog-price">$2,900</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Sustainable Supply Chain Professional</div>
-          <div class="prog-desc">Design sustainable procurement strategies, assess supplier performance, and implement circular economy principles across complex global supply chains.</div>
+        <div class="ci-item">
+          <span class="ci-icon"><i class="fa-solid fa-handshake"></i></span>
+          <div>
+            <div class="ci-label">Corporate & Consulting</div>
+            <div class="ci-val">consulting@selalimited.com</div>
+          </div>
         </div>
-        <div class="prog-dur">4 months</div>
-        <div class="prog-price">$2,700</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">ESG Investment & Sustainable Finance Analyst</div>
-          <div class="prog-desc">Bridge sustainability expertise with financial analysis. Conduct ESG ratings, integrate ESG into investment decisions, and navigate green bond markets.</div>
+        <div class="ci-item">
+          <span class="ci-icon"><i class="fa-solid fa-earth-americas"></i></span>
+          <div>
+            <div class="ci-label">Global Partnerships</div>
+            <div class="ci-val">partnerships@selalimited.com</div>
+          </div>
         </div>
-        <div class="prog-dur">5 months</div>
-        <div class="prog-price">$3,800</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Environmental Impact Assessment Specialist</div>
-          <div class="prog-desc">Technical certification for conducting rigorous EIAs. Assess baseline conditions, predict impacts, and design mitigation programs to international standards.</div>
+        <div class="ci-item">
+          <span class="ci-icon"><i class="fa-solid fa-calendar-days"></i></span>
+          <div>
+            <div class="ci-label">Next Cohort Intakes</div>
+            <div class="ci-val">January · April · July · October</div>
+          </div>
         </div>
-        <div class="prog-dur">4 months</div>
-        <div class="prog-price">$2,800</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
       </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Circular Economy Practitioner</div>
-          <div class="prog-desc">Specialized training in circular economy frameworks, business model innovation, and waste elimination strategies. Design circular products and revenue streams.</div>
-        </div>
-        <div class="prog-dur">3 months</div>
-        <div class="prog-price">$2,400</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="exec">
-        <div>
-          <span class="prog-badge b-exec">Executive</span>
-          <div class="prog-name">Executive Certificate in Sustainability Leadership</div>
-          <div class="prog-desc">Strategic sustainability at board level. For C-suite executives and senior leaders — covering ESG governance, stakeholder capitalism, and long-term value creation.</div>
-        </div>
-        <div class="prog-dur">8 weeks</div>
-        <div class="prog-price">$12,500</div>
-        <a href="contact.html" class="prog-cta">Apply</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="exec">
-        <div>
-          <span class="prog-badge b-exec">Executive</span>
-          <div class="prog-name">Sustainability for Board Directors</div>
-          <div class="prog-desc">Intensive 3-day residential program for board directors and trustees. Climate risk governance, fiduciary duty and sustainability, and ESG-linked remuneration.</div>
-        </div>
-        <div class="prog-dur">3 days</div>
-        <div class="prog-price">$4,800</div>
-        <a href="contact.html" class="prog-cta">Apply</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="online">
-        <div>
-          <span class="prog-badge b-online">Online / Micro</span>
-          <div class="prog-name">Digital Badge Programs</div>
-          <div class="prog-desc">Bite-sized credentials (4–8 weeks) across foundational topics: Carbon Footprinting, Sustainable Procurement, ESG Reporting Basics, Water Stewardship, and more.</div>
-        </div>
-        <div class="prog-dur">4–8 weeks</div>
-        <div class="prog-price">$299–$599</div>
-        <a href="contact.html" class="prog-cta">Browse</a>
-      </div>
-
     </div>
   </div>
 </section>

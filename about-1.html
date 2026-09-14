@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Programs | SELA</title>
+<title>About | SELA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
@@ -1470,26 +1470,6 @@ footer {
   .full-people-grid { grid-template-columns: 1fr 1fr; gap:1rem; }
 }
 
-body { background:#fff; }
-.programs { background:#ffffff !important; }
-.programs .s-tag, .s-tag { color:var(--grape) !important; }
-.programs h2 { color:var(--plum) !important; }
-.programs .s-lead { color:rgba(61,26,110,0.6) !important; opacity:1 !important; }
-.prog-row { border-bottom:1px solid rgba(61,26,110,0.08) !important; }
-.prog-row:first-child { border-top:1px solid rgba(61,26,110,0.08) !important; }
-.prog-row:hover { background:rgba(124,58,237,0.04) !important; }
-.prog-name { color:var(--plum) !important; }
-.prog-desc { color:rgba(61,26,110,0.52) !important; }
-.prog-dur { color:rgba(61,26,110,0.38) !important; }
-.prog-price { color:var(--iris) !important; }
-.p-tab { border:1px solid rgba(61,26,110,0.18) !important; color:rgba(61,26,110,0.45) !important; background:#fff !important; }
-.p-tab.active,.p-tab:hover { background:rgba(124,58,237,0.08) !important; border-color:rgba(124,58,237,0.4) !important; color:var(--grape) !important; }
-.prog-cta { color:var(--iris) !important; border-color:rgba(124,58,237,0.3) !important; }
-.prog-cta:hover { background:rgba(124,58,237,0.08) !important; }
-.b-cert { background:rgba(124,58,237,0.1) !important; color:var(--grape) !important; }
-.b-exec { background:rgba(168,85,247,0.1) !important; color:var(--grape) !important; }
-.b-online { background:rgba(61,26,110,0.07) !important; color:var(--grape) !important; }
-
 
 /* ═══ UNIVERSAL WHITE BACKGROUND — ALL PAGES ═══ */
 body { background: #ffffff !important; color: var(--plum) !important; }
@@ -1654,8 +1634,8 @@ h2 { color: var(--plum) !important; }
       <span class="logo-name">SELA</span>
     </a>
     <ul class="nav-links">
-      <li><a href="about.html">About</a></li>
-      <li><a href="programs.html" class="active">Programs</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="programs.html">Programs</a></li>
       <li><a href="consulting.html">Consulting</a></li>
       <li><a href="research.html">Research</a></li>
       <li><a href="alumni.html">Alumni</a></li>
@@ -1666,134 +1646,133 @@ h2 { color: var(--plum) !important; }
   </nav>
 </div>
 
-<!-- ── PROGRAMS ── -->
-<section class="programs" id="programs">
+<!-- ── ABOUT ── -->
+<section class="about" id="about">
   <div class="s-inner">
-    <div class="prog-header-row">
-      <div>
-        <div class="s-tag" style="color:var(--lavender);">Certification Programs</div>
-        <h2>40+ Credentials Across Every Sustainability Domain</h2>
+    <div class="s-tag" style="color:var(--grape);">About SELA</div>
+    <h2>Education That Changes How the World Works</h2>
+
+    <div class="about-layout">
+      <div class="about-text reveal">
+        <p class="s-lead" style="color:rgba(61,26,110,0.65); opacity:1;">
+          SELA is a globally recognised sustainability academy providing rigorous professional education and consulting across environmental management, ESG, climate action, and sustainable finance. Founded on the principle that knowledge must translate to measurable impact, we serve individual practitioners and multinational corporations across more than 120 countries.
+        </p>
+        <p class="mission-pull">
+          "To equip every generation of leaders with the expertise to build a sustainable world — not tomorrow, but right now."
+        </p>
+        <p style="margin-top:1.75rem; font-size:0.88rem; color:rgba(61,26,110,0.55); line-height:1.75;">
+          Our faculty are practitioners first — former policymakers, chief sustainability officers, carbon market specialists, and environmental scientists who bring field-tested knowledge into every classroom. Our curriculum is reviewed annually to stay ahead of regulatory changes, market shifts, and emerging best practices.
+        </p>
       </div>
-      <div class="prog-tabs">
-        <button class="p-tab active" onclick="filterProgs('all',this)">All Programs</button>
-        <button class="p-tab" onclick="filterProgs('cert',this)">Certifications</button>
-        <button class="p-tab" onclick="filterProgs('exec',this)">Executive</button>
-        <button class="p-tab" onclick="filterProgs('online',this)">Online / Micro</button>
+
+      <div class="values-stack reveal">
+        <div class="value-tile feature">
+          <div class="vt-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="vt-name">Excellence</div>
+          <div class="vt-desc">Rigorous, practitioner-designed curricula that set the global standard for sustainability education and professional competency.</div>
+        </div>
+        <div class="value-tile">
+          <div class="vt-icon"><i class="fa-solid fa-bolt"></i></div>
+          <div class="vt-name">Innovation</div>
+          <div class="vt-desc">Pioneering new frameworks for the changing sustainability landscape.</div>
+        </div>
+        <div class="value-tile">
+          <div class="vt-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="vt-name">Impact</div>
+          <div class="vt-desc">Measurable, evidence-based outcomes in every program we deliver.</div>
+        </div>
+        <div class="value-tile">
+          <div class="vt-icon"><i class="fa-solid fa-handshake"></i></div>
+          <div class="vt-name">Integrity</div>
+          <div class="vt-desc">Transparent, ethical practice in everything we do.</div>
+        </div>
+        <div class="value-tile">
+          <div class="vt-icon"><i class="fa-solid fa-globe"></i></div>
+          <div class="vt-name">Inclusivity</div>
+          <div class="vt-desc">Accessible education for professionals from every country and background.</div>
+        </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="prog-list">
+<!-- ── OUR TEAM ── -->
+<section class="people-section dark" id="team">
+  <div class="s-inner">
+    <div class="s-tag" style="color:var(--lilac);">Our People</div>
+    <h2 style="color:var(--white);">Meet Our Team</h2>
+    <p class="s-lead" style="color:rgba(245,240,255,0.5); opacity:1; margin-bottom:0;">
+      Our leadership team combines world-class academic expertise with deep practitioner experience across every dimension of global sustainability.
+    </p>
+    <div class="people-preview-grid">
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#3D1A6E 0%,#7C3AED 100%);"><span>AN</span></div>
+      <div class="pp-name">Dr. Adaeze Nwosu</div>
+      <div class="pp-role">Founder & CEO</div>
+      <div class="pp-bio">Visionary founder with 20+ years in sustainability consulting and policy. Former UNEP tech…</div>
+    </div>
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#1D0E3B 0%,#3D1A6E 100%);"><span>KA</span></div>
+      <div class="pp-name">Kwame Asante</div>
+      <div class="pp-role">Chief Academic Officer</div>
+      <div class="pp-bio">Former Chief Sustainability Officer at the Pan-African Development Bank. Expert in ESG gov…</div>
+    </div>
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#7C3AED 0%,#A855F7 100%);"><span>MS</span></div>
+      <div class="pp-name">Dr. Maria Santos</div>
+      <div class="pp-role">Director of Research</div>
+      <div class="pp-bio">Climate science PhD from MIT. Lead author on three IPCC working group contributions. Speci…</div>
+    </div>
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#3D1A6E 0%,#A855F7 100%);"><span>JP</span></div>
+      <div class="pp-name">James Pemberton</div>
+      <div class="pp-role">Head of Consulting</div>
+      <div class="pp-bio">15 years leading ESG practice at Big Four advisory firms. Has designed net zero strategies…</div>
+    </div>
+    </div>
+    <div class="view-all-wrap">
+      <a href="team.html" class="btn-view-all">Meet the Full Team <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="contact.html" class="btn-view-ghost">Work With Us</a>
+    </div>
+  </div>
+</section>
 
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Certified Sustainability Professional (CSP)</div>
-          <div class="prog-desc">The flagship certification for environmental and sustainability managers. Strategy, reporting, stakeholder engagement, and systemic change leadership.</div>
-        </div>
-        <div class="prog-dur">6 months</div>
-        <div class="prog-price">$3,500</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Certified Environmental Manager (CEM)</div>
-          <div class="prog-desc">Comprehensive training in environmental compliance, risk management, and operational excellence. Navigate regulations and lead environmental auditing programs.</div>
-        </div>
-        <div class="prog-dur">5 months</div>
-        <div class="prog-price">$3,200</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Climate Change & Carbon Management Specialist</div>
-          <div class="prog-desc">Advanced certification in climate science, carbon accounting (Scopes 1–3), and net zero strategy. Navigate carbon markets and TCFD climate disclosure.</div>
-        </div>
-        <div class="prog-dur">4 months</div>
-        <div class="prog-price">$2,900</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Sustainable Supply Chain Professional</div>
-          <div class="prog-desc">Design sustainable procurement strategies, assess supplier performance, and implement circular economy principles across complex global supply chains.</div>
-        </div>
-        <div class="prog-dur">4 months</div>
-        <div class="prog-price">$2,700</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">ESG Investment & Sustainable Finance Analyst</div>
-          <div class="prog-desc">Bridge sustainability expertise with financial analysis. Conduct ESG ratings, integrate ESG into investment decisions, and navigate green bond markets.</div>
-        </div>
-        <div class="prog-dur">5 months</div>
-        <div class="prog-price">$3,800</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Environmental Impact Assessment Specialist</div>
-          <div class="prog-desc">Technical certification for conducting rigorous EIAs. Assess baseline conditions, predict impacts, and design mitigation programs to international standards.</div>
-        </div>
-        <div class="prog-dur">4 months</div>
-        <div class="prog-price">$2,800</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="cert">
-        <div>
-          <span class="prog-badge b-cert">Certification</span>
-          <div class="prog-name">Circular Economy Practitioner</div>
-          <div class="prog-desc">Specialized training in circular economy frameworks, business model innovation, and waste elimination strategies. Design circular products and revenue streams.</div>
-        </div>
-        <div class="prog-dur">3 months</div>
-        <div class="prog-price">$2,400</div>
-        <a href="contact.html" class="prog-cta">Enrol</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="exec">
-        <div>
-          <span class="prog-badge b-exec">Executive</span>
-          <div class="prog-name">Executive Certificate in Sustainability Leadership</div>
-          <div class="prog-desc">Strategic sustainability at board level. For C-suite executives and senior leaders — covering ESG governance, stakeholder capitalism, and long-term value creation.</div>
-        </div>
-        <div class="prog-dur">8 weeks</div>
-        <div class="prog-price">$12,500</div>
-        <a href="contact.html" class="prog-cta">Apply</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="exec">
-        <div>
-          <span class="prog-badge b-exec">Executive</span>
-          <div class="prog-name">Sustainability for Board Directors</div>
-          <div class="prog-desc">Intensive 3-day residential program for board directors and trustees. Climate risk governance, fiduciary duty and sustainability, and ESG-linked remuneration.</div>
-        </div>
-        <div class="prog-dur">3 days</div>
-        <div class="prog-price">$4,800</div>
-        <a href="contact.html" class="prog-cta">Apply</a>
-      </div>
-
-      <div class="prog-row reveal" data-type="online">
-        <div>
-          <span class="prog-badge b-online">Online / Micro</span>
-          <div class="prog-name">Digital Badge Programs</div>
-          <div class="prog-desc">Bite-sized credentials (4–8 weeks) across foundational topics: Carbon Footprinting, Sustainable Procurement, ESG Reporting Basics, Water Stewardship, and more.</div>
-        </div>
-        <div class="prog-dur">4–8 weeks</div>
-        <div class="prog-price">$299–$599</div>
-        <a href="contact.html" class="prog-cta">Browse</a>
-      </div>
-
+<!-- ── BOARD OF DIRECTORS ── -->
+<section class="people-section light" id="board">
+  <div class="s-inner">
+    <div class="s-tag" style="color:var(--grape);">Governance</div>
+    <h2 style="color:var(--plum);">Our Board of Directors</h2>
+    <p class="s-lead" style="color:rgba(61,26,110,0.6); opacity:1; margin-bottom:0;">
+      SELA's Board brings together leaders from international policy, sustainable finance, environmental science, and the private sector to guide our mission with integrity and ambition.
+    </p>
+    <div class="people-preview-grid">
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#1D0E3B 0%,#7C3AED 100%);"><span>EO</span></div>
+      <div class="pp-name">Prof. Emmanuel Osei</div>
+      <div class="pp-role">Chairman of the Board</div>
+      <div class="pp-bio">Emeritus Professor of Environmental Policy at the University of Ghana. Former Deputy Direc…</div>
+    </div>
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#7C3AED 0%,#A855F7 100%);"><span>CL</span></div>
+      <div class="pp-name">Dr. Christine Larson</div>
+      <div class="pp-role">Non-Executive Director</div>
+      <div class="pp-bio">Leading climate finance economist and founding partner of Nordic Green Capital. Former adv…</div>
+    </div>
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#3D1A6E 0%,#1D0E3B 100%);"><span>IK</span></div>
+      <div class="pp-name">Ibrahim Al-Khalid</div>
+      <div class="pp-role">Non-Executive Director</div>
+      <div class="pp-bio">Partner at Gulf Sustainability Partners, with 25 years in private equity and impact invest…</div>
+    </div>
+    <div class="pp-card  reveal">
+      <div class="pp-avatar" style="background:linear-gradient(140deg,#A855F7 0%,#3D1A6E 100%);"><span>JW</span></div>
+      <div class="pp-name">Dr. Joyce Wangari</div>
+      <div class="pp-role">Non-Executive Director</div>
+      <div class="pp-bio">Environmental scientist and conservation biologist. Former Director of Natural Capital at …</div>
+    </div>
+    </div>
+    <div class="view-all-wrap">
+      <a href="board.html" class="btn-view-all">View Full Board <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 </section>
@@ -1836,7 +1815,8 @@ h2 { color: var(--plum) !important; }
       <h4>Academy</h4>
       <ul>
         <li><a href="about.html">About SELA</a></li>
-        <li><a href="about.html#leadership">Leadership Team</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="board.html">Board of Directors</a></li>
         <li><a href="admissions.html">Admissions</a></li>
         <li><a href="admissions.html#scholarships">Scholarships</a></li>
         <li><a href="alumni.html">Alumni Network</a></li>
